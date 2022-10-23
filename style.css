@@ -1,0 +1,28 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    background-color: hwb(0 22% 76%);
+
+}
+.gallery {
+    width: 80%;
+    padding: 5px;
+    margin: 30px auto;
+    text-align: center;
+}
+.gallery .photos img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #aaa;
+    margin: 10px 5px;
+}
+.photos img:hover {
+    cursor: pointer;
+    border: 5px solid #080;
+}
+.gallery .main img {
+    height: 830px;
+    width: 830px;
+    margin-left: 20px;
+    border: 5px solid #aaa;
+}
+
